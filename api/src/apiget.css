@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+}
+
+html{
+    background-color: #222222;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.xxx-video-xxx{
+    min-height: 27.5rem;
+    max-width: 1920px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    overflow: visible;
+}
+.xxx-video-xxx .bg-video-box{
+    min-width: 200%;
+    min-height: 100%;
+    max-height: 250%;
+    position: absolute;
+    background-color: aqua;
+    transform: translate(-50%, -60%);
+    z-index: 1;
+}
+
+
+
+.types-categories{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.types-categories div{
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    background-color: transparent;
+    color: #F7F7F7;
+    height: 2.5rem;
+    line-height: 2rem;
+    width: auto;
+    padding: 0.3rem;
+    border: 1px solid #F7F7F7;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    justify-content: center;
+    line-height: 2.5rem;
+    transition: all .15s linear;
+}
+
+.types-categories div:hover{
+    border: 1px solid #00ab6b;
+    color: #00fffb;
+}
+
+
+svg{
+    width: 8rem;
+    fill: white;
+    color: white;
+    padding: 1.5rem 0 0 2rem;
+}
+
+
+.pix-search-input{
+    position: relative;
+    height: 3rem;
+    margin: .35rem 0 0 0.7rem;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.categories{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: 5rem;
+    z-index: 2;
+    margin-left: 3rem;
+}
+
+.drop-down-diw{
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    background-color: transparent;
+    color: #F7F7F7;
+    height: 2rem;
+    line-height: 2rem;
+    width: 8rem;
+    border: 1px solid #F7F7F7;
+    border-radius: .3rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    transition: all .15s linear;
+    margin-left: 43%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.categories-div{
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    background-color: transparent;
+    color: #F7F7F7;
+    height: 2rem;
+    line-height: 2rem;
+    width: 5rem;
+    border: 1px solid #F7F7F7;
+    border-radius: .3rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    transition: all .15s linear;
+}
+
+.categories div:hover{
+    border: 1px solid #00ab6b;
+    color: #00fffb;
+}
+
+
+
+.pix-search-input-btn{
+    position: absolute;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 2rem;
+    border: none;
+    z-index: 2;
+    margin: .85rem 0 0 26rem;
+}
+
+.pix-container-hh{
+    margin-top: 12rem;
+    position: absolute;
+    z-index: 2;
+    width: 45%;
+    height: 3.7rem;
+    background-color: white;
+    border-radius: 4rem;
+}
+
+.uwu-x{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+}
+
+.uwu-x h2{
+    margin-left: -12.6rem;
+    margin-top: 7rem;
+}
+
+.uwu-x p{
+    margin-left: -12.6rem;
+    margin-top: 0.6rem;
+    font-size: 1rem;
+}
+
+.pix-search-input::before{
+    color: aquamarine;
+    position: relative;
+    content: "\f14f";
+    z-index: 2;
+}
+.pix-search-div{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 27.5rem;
+    border-radius: 0rem;
+    background-image: url(https://cdn.pixabay.com/index/2023/09/15/04-01-39-357_1920x550.jpg);
+    background-position: -1rem;
+    color: white;
+}
+.pix-search-div-gradient{
+    position: absolute;
+    width: 100%;
+    height: 27.5rem;
+    z-index: 2;
+    background: linear-gradient(0deg,rgba(25,27,38,.32),rgba(25,27,38,.72));
+}
+.pix-custom-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 96%;
+    margin-left: 2%;
+    overflow-x: hidden;
+    height: auto;
+    background-color: #222222;
+}
